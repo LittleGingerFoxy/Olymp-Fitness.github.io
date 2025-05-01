@@ -1,0 +1,67 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Prata';
+}
+a, span, p
+{
+    font-family: 'Arial';
+}
+body
+{
+    background-color: #282828;
+}
+a
+{
+	text-decoration: none;
+}
+ul
+{
+	list-style-type: none;
+}
+.container
+{
+	max-width: 1920px;
+	margin: 0 auto;
+	padding: 0 163px;
+	width: 100%;
+}
+.g-flex
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+@media(max-width: 1039px)
+{
+    .container
+{
+	padding: 0 130px;
+}
+}
+@media(max-width: 875px)
+{
+	.container
+	{
+		padding: 0 100px;
+	}
+}
+@media(max-width: 682px)
+{
+	.container
+	{
+		padding: 0 70px;
+	}
+}
+@media(max-width: 462px)
+{
+	.container
+	{
+		padding: 0 40px;
+	}
+}

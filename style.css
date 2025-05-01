@@ -1,0 +1,882 @@
+.fitness__header
+{
+    position: fixed; 
+    top: 0;         
+    left: 0;
+    width: 100%;
+    z-index: 1000;   
+    background-color: #222222;
+    padding: 20px 0;
+    width: 100%;
+    box-shadow: 0px 9px 9px 1px rgba(30, 30, 30, 0.45);
+}
+.header-flex
+{
+    display: flex;
+    align-items: center;
+}
+.fitness__header-logo
+{
+    margin-right: 205px;
+}
+.fitness__header-logo img
+{
+    max-width: 153px;
+}
+.fitness__header-links
+{
+    display: flex;
+    gap: 29px;
+}
+.fitness__header-links a
+{
+     color: #fff;
+     font-style: italic;
+     line-height: 150%;
+     transition: .3s;
+     font-size: 16px;
+}
+.fitness__header-links a:hover
+{
+    transition: .3s;
+    text-decoration: underline;
+}
+
+
+.fitness__top
+{
+    background-image: linear-gradient(0.25turn, #222222 70%, transparent 80%), url(images/gym-img-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 361px;
+    padding-bottom: 50px;   
+    margin-bottom: 100px;
+}
+.fitness__top-title
+{
+    font-size: 80px;
+    color: #fff;
+    line-height: 120%;
+    letter-spacing: 2px;
+    max-width: 800px;
+    width: 100%;
+    margin-bottom: 50px;            
+}
+.fitness__top-gifts
+{
+    margin-bottom: 40px;
+}
+.fitness__top-gifts-title
+{
+    font-size: 50px;
+    color: #fff;
+    max-width: 867px;
+    width: 100%;
+    margin-bottom: 64px;
+}
+.fitness__top-gifts-list img
+{
+    max-width: 40px;
+    margin-right: 10px;
+}
+.fitness__top-gifts-list li
+{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+}
+.fitness__top-gifts-list li:not(:last-child)
+{
+    margin-bottom: 35px;
+}
+.fitness__top-gifts-list-text
+{
+    display: flex; 
+    align-items: center;
+}
+.fitness__top-gifts-list h5
+{
+    margin: 0 7px;
+    font-size: 40px;
+}
+.fitness__top-btn-link
+{
+    display: inline-block;
+    color: #222222;
+    background-color: #fff;
+    padding: 40px 50px;
+    font-size: 24px;
+    font-weight: 900;
+    border-radius: 10px;
+    transition: .3s;
+    border: solid 1px #fff;
+}
+.fitness__top-btn-link:hover
+{
+    transition: .3s;
+    color: #fff;
+    background-color: #222222;
+    border: solid 1px #fff;
+}
+
+
+.fitness_description
+{
+    background-image: url('images/gym-img-2.png'), url('images/gym-img-3.png');
+    background-position: right, left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+.fitness_description-center
+{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222222;  
+    max-width: 675px;
+    width: 100%;
+    padding: 0 53px;
+}
+.fitness__description-list
+{
+    margin-bottom: 30px;
+}
+.fitness__description-list li 
+{
+    display: flex;
+    align-items: flex-start;
+    color: #fff;
+    font-size: 24px;
+    line-height: 120%;
+    gap: 20px;
+    padding: 40px 0;
+}
+.fitness__description-list li:not(:last-child)
+{
+    border-bottom: solid 1px #55565A;
+}
+.fitness_description-btn
+{
+    margin-bottom: 40px;
+}
+.fitness_description-btn-link 
+{   
+    max-height: 67px;
+    height: 100%;
+    background-color: #fff;
+    color: #222222;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 32px 269px;
+    border: solid 1px #fff;
+    border-radius: 10px;
+}
+.fitness_description-btn-link:hover
+{
+    transition: .3s;
+    color: #fff;
+    background-color: #222222;
+    border: solid 1px #fff;
+}
+
+
+.fitness__registration
+{
+    margin-bottom: 100px;
+}
+.fitness__registration-bg
+{
+    background-image: linear-gradient(0.25turn, #fff 60%, transparent 80%), url(images/gym-img-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 73px 134px;
+    border-radius: 30px;
+}
+.fitness__registration-title
+{
+    color: #38535D;
+    font-size: 54px;
+    max-width: 495px;
+    width: 100%;
+    margin-bottom: 45px;
+}
+.fitness__registration-regArea
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 781px;
+    width: 100%;
+    gap: 13px;
+    margin-bottom: 26px;
+}
+.fitness__registration-regArea input
+{
+    padding: 14px 38px;
+    font-size: 24px;
+    border: solid 2px #D5C9BE;
+    border-radius: 5px;
+}
+.fitness__registration-checkBox
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+}
+.fitness__registration-checkBox input
+{
+    width: 20px;
+    height: 20px;
+    border:solid 1px #38535D;
+    border-radius: 50px;
+    margin-right: 16px;
+    
+}
+.fitness__registration-btn
+{
+    max-width: 781px;
+    width: 100%;
+    max-height: 89px;
+    height: 100%;
+    padding: 32px 0;
+    font-size: 24px;
+    border: solid 1px #282829;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #282829;
+    transition: .3s;
+}
+.fitness__registration-btn:hover
+{
+    border: solid 1px #282829;
+    color: #282829;
+    background-color:  #fff;
+    transition: .3s;
+}
+
+
+.fitness__footer-links
+{
+    display: flex;
+    justify-content: center;
+    gap: 29px;
+    background-color: #222222;
+    border-top: solid 3px #D5C9BE;
+    border-bottom: solid 3px #D5C9BE;
+    padding: 40px 0;
+}
+.fitness__footer-links a
+{
+     color: #fff;
+     font-style: italic;
+     font-size: 20px;
+     line-height: 150%;
+     transition: .3s;
+}
+.fitness__footer-links a:hover
+{
+    transition: .3s;
+    text-decoration: underline;
+}
+.fitness__footer-info
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 52px 30px;
+    gap: 10px;
+}
+.footer-flex
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;    
+}
+.fitness__footer-info-left img
+{
+    max-width: 153px;
+    margin-bottom: 54px;
+}
+.fitness__footer-info-left span
+{
+    color: #fff;
+    font-size: 20px;
+}
+.fitness__footer-info-mid a
+{
+    color: #fff;
+    font-size: 20px;
+    transition: .3s;
+}
+.fitness__footer-info-mid a:hover
+{
+    text-decoration: underline;
+    transition: .3s;
+}
+.fitness__footer-info-mid-logos
+{
+    display: flex;
+    gap: 32px;
+    margin-bottom: 63px;
+}
+.fitness__footer-logos-group
+{
+    display: flex;
+    gap: 32px;
+}
+.fitness__footer-info-right-btn a
+{
+    display: inline-block;
+    color: #222222;
+    background-color: #fff;
+    padding: 32px 52px;
+    font-size: 24px;
+    font-weight: 900;
+    border-radius: 10px;
+    transition: .3s;
+    border: solid 1px #fff;
+    margin-bottom: 38px;
+}
+.fitness__footer-info-right-btn a:hover
+{
+    transition: .3s;
+    color: #fff;
+    background-color: #222222;
+    border: solid 1px #fff;
+}
+.fitness__footer-info-right-terms a
+{
+    color: #fff;
+    font-size: 20px;
+    transition: .3s;
+}
+.fitness__footer-info-right-terms a:hover
+{
+    text-decoration: underline;
+    transition: .3s;
+}
+@media(max-width: 1039px)
+{
+    .fitness__header-logo
+    {
+        margin-right: 130px;
+    }
+    .fitness__header-logo img
+    {
+        max-width: 100px;
+    }
+    .fitness__header-links
+    {
+        gap: 22px;
+    }
+    .fitness__header-links a
+    {
+        font-size: 14px;
+    }
+
+
+    .fitness__top
+    {
+        padding-top: 310px;
+        padding-bottom: 40px;   
+        margin-bottom: 90px;
+    }
+    .fitness__top-title
+    {
+        font-size: 65px;
+        max-width: 700px;
+        margin-bottom: 40px;        
+    }
+    .fitness__top-gifts
+    {
+        margin-bottom: 35px;
+    }
+    .fitness__top-gifts-title
+    {
+        font-size: 40px;
+        max-width: 750px;
+        width: 100%;
+        margin-bottom: 54px;
+    }
+    .fitness__top-gifts-list img
+    {
+        max-width: 35px;
+    }
+    .fitness__top-gifts-list li
+    {
+        font-size: 22px;
+    }
+    .fitness__top-gifts-list li:not(:last-child)
+    {
+        margin-bottom: 30px;
+    }
+    .fitness__top-gifts-list h5
+    {
+        font-size: 35px;
+    }
+    .fitness__top-btn-link
+    {
+        padding: 35px 45px;
+        font-size: 22px;
+    }
+
+
+    .fitness_description
+    {
+        background-image: linear-gradient(0.25turn, #282828 70%, transparent 80%), url('images/gym-img-3.png');
+        background-position: right;
+        margin-bottom: 90px;
+    }
+    .fitness_description-center
+    {
+        max-width: 600px;
+        width: 100%;
+        margin: 0 0 0 54px;
+        background-color: transparent;
+        padding: 0;
+    }
+    .fitness__description-list li 
+    {
+        font-size: 22px;
+    }
+    .fitness__description-list img
+    {
+        max-width: 50px;
+        width: 100%;
+    }
+
+
+    .fitness__registration
+    {
+        margin-bottom: 90px;
+    }
+    .fitness__registration-title
+    {
+        font-size: 44px;
+        max-width: 445px;
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .fitness__registration-regArea input
+    {
+        padding: 14px 28px;
+        font-size: 20px;
+    }
+    .fitness__registration-btn
+    {
+        font-size: 22px;
+    }
+}
+
+
+@media(max-width: 875px)
+{
+    .fitness__header-logo
+    {
+        margin-right: 100px;
+    }
+    .fitness__header-links
+    {
+        gap: 15px;
+    }
+    .fitness__header-links a
+    {
+        font-size: 12px;
+    }
+
+
+    .fitness__top
+    {
+        padding-top: 260px;
+        padding-bottom: 35px;   
+        margin-bottom: 80px;
+    }
+    .fitness__top-title
+    {
+        font-size: 55px;
+        max-width: 600px;
+        margin-bottom: 35px;        
+    }
+    .fitness__top-gifts
+    {
+        margin-bottom: 30px;
+    }
+    .fitness__top-gifts-title
+    {
+        font-size: 35px;
+        max-width: 650px;
+        width: 100%;
+        margin-bottom: 44px;
+    }
+    .fitness__top-gifts-list img
+    {
+        max-width: 30px;
+    }
+    .fitness__top-gifts-list li
+    {
+        font-size: 20px;
+    }
+    .fitness__top-gifts-list li:not(:last-child)
+    {
+        margin-bottom: 25px;
+    }
+    .fitness__top-gifts-list h5
+    {
+        font-size: 30px;
+    }
+    .fitness__top-btn-link
+    {
+        padding: 30px 40px;
+        font-size: 20px;
+    }
+
+
+    .fitness_description
+    {
+        background-color: #222222;
+        margin-bottom: 60px;
+    }
+    .fitness_description-center
+    {
+        max-width: 500px;
+        width: 100%;
+        margin: 0 0 0 44px;
+    }
+    .fitness__description-list li 
+    {
+        font-size: 20px;
+    }
+    .fitness__description-list img
+    {
+        max-width: 50px;
+        width: 100%;
+    }
+    .fitness_description-btn-link 
+    {  
+        padding: 22px 214px;
+    }
+
+
+    .fitness__registration
+    {
+        margin-bottom: 80px;
+    }
+    .fitness__registration-bg
+    {
+        background-image: linear-gradient(0.50turn, #fff 60%, transparent 80%), url(images/gym-img-5.png);
+        padding: 43px 64px;
+    }
+    .fitness__registration-title
+    {
+        font-size: 30px;
+        max-width: 400px;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .fitness__registration-regArea input
+    {
+        padding: 14px 24px;
+        font-size: 16px;
+    }
+    .fitness__registration-btn
+    {
+        font-size: 18px;
+    }
+
+
+    .fitness__footer-links 
+    {
+        font-size: 12px;
+        padding: 30px 0;
+    }
+    .fitness__footer-links a
+    {
+        font-size: 12px;
+    }
+    .fitness__footer-info-left img
+    {
+        max-width: 100px;
+        margin-bottom: 44px;
+    }
+    .fitness__footer-info-left span
+    {
+        font-size: 16px;
+    }
+    .fitness__footer-info-mid a
+    {
+        font-size: 16px;
+    }
+    .fitness__footer-logos-group
+    {
+        gap: 26px;
+    }
+    .fitness__footer-info-right-terms a
+    {
+        font-size: 16px;
+    }
+}
+
+
+@media(max-width: 698px)
+{
+    .fitness__header-logo
+    {
+        margin-right: 50px;
+    }
+    .fitness__header-logo img
+    {
+        max-width: 70px;
+    }
+    .fitness__header-links
+    {
+        gap: 8px;
+    }
+    .fitness__header-links a
+    {
+        font-size: 10px;
+    }
+
+
+    .fitness__top
+    {   
+        background-image: linear-gradient(0turn, #222222 55%, transparent 80%), url(images/gym-img-1.png);
+        padding-top: 210px;
+        padding-bottom: 30px;   
+        margin-bottom: 70px;
+    }
+    .fitness__top-title
+    {
+        font-size: 45px;
+        max-width: 500px;
+        margin-bottom: 30px;        
+    }
+    .fitness__top-gifts
+    {
+        margin-bottom: 25px;
+    }
+    .fitness__top-gifts-title
+    {
+        font-size: 30px;
+        max-width: 550px;
+        width: 100%;
+        margin-bottom: 34px;
+    }
+    .fitness__top-gifts-list img
+    {
+        max-width: 25px;
+    }
+    .fitness__top-gifts-list li
+    {
+        flex-direction: column;
+        font-size: 14px;
+    }
+    .fitness__top-gifts-list li:not(:last-child)
+    {
+        margin-bottom: 20px;
+    }
+    .fitness__top-gifts-list h5
+    {
+        font-size: 16px;
+    }
+    .fitness__top-btn
+    {
+        text-align: center;
+    }
+    .fitness__top-btn-link
+    {
+        padding: 25px 100px;
+        font-size: 18px;
+    }
+
+
+    .fitness_description
+    {
+        background-image: none;
+        margin-bottom: 50px;
+    }
+    .fitness_description-center
+    {
+        max-width: 400px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .fitness__description-list li 
+    {
+        font-size: 14px;
+        padding: 20px 0;
+    }
+    .fitness__description-list img
+    {
+        max-width: 40px;
+        width: 100%;
+    }
+    .fitness_description-btn-link 
+    {  
+        font-size: 18px;
+        padding: 22px 180px;
+    }
+
+
+    .fitness__registration
+    {
+        margin-bottom: 70px;
+    }
+    .fitness__registration-bg
+    {
+        padding: 33px 44px;
+    }
+    .fitness__registration-title
+    {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .fitness__registration-regArea input
+    {
+        padding: 14px 18px;
+        font-size: 14px;
+    }
+    .fitness__registration-btn
+    {
+        font-size: 14px;
+    }
+
+
+    
+    .fitness__footer-info-left img
+    {
+        max-width: 70px;
+        margin-bottom: 34px;
+    }
+    .fitness__footer-info-right-btn a
+    {
+        font-size: 18px;
+        padding: 15px 32px;
+    }
+    .fitness__footer-info-mid-logos
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .fitness__footer-logos-group
+    {
+        gap: 12px;
+    }
+    .fitness__footer-info-right-btn a
+    { 
+        padding: 12px 22px;
+        font-size: 16px;
+    }
+    .fitness__footer-info-mid-logos
+    {
+        margin-bottom: 33px;
+    }
+    .fitness__footer-logos-group img
+    {
+        max-width: 30px;
+        width: 100%;
+    }
+    .fitness__footer-info-right-btn a
+    {
+        font-size: 14px; 
+        padding: 10px 15px;
+    }
+}
+
+
+@media(max-width: 462px)
+{
+    .fitness__header-logo
+    {
+        margin-right: 30px;
+    }
+    .fitness__header-logo img
+    {
+        max-width: 40px;
+    }
+    .fitness__header-links
+    {
+        gap: 4px;
+    }
+    .fitness__header-links a
+    {
+        font-size: 8px;
+    }
+
+
+    .fitness__top
+    {
+        padding-top: 100px;
+        padding-bottom: 10px;   
+        margin-bottom: 30px;
+    }
+    .fitness__top-title
+    {
+        font-size: 25px;
+        max-width: 300px;
+        margin-bottom: 20px;        
+    }
+    .fitness__top-gifts
+    {
+        margin-bottom: 10px;
+    }
+    .fitness__top-gifts-title
+    {
+        font-size: 15px;
+        max-width: 300px;
+        width: 100%;
+        margin-bottom: 14px;
+    }
+    .fitness__top-gifts-list img
+    {
+        max-width: 15px;
+    }
+    .fitness__top-gifts-list li
+    {
+        font-size: 10px;
+    }
+    .fitness__top-gifts-list li:not(:last-child)
+    {
+        margin-bottom: 5px;
+    }
+    .fitness__top-gifts-list h5
+    {
+        font-size: 12px;
+        margin: 3px;
+    }
+    .fitness__top-btn-link
+    {
+        padding: 10px 80px;
+        font-size: 14px;
+    }
+
+
+    .fitness_description
+    {
+        margin-bottom: 60px;
+        padding: 20px;
+    }
+    .fitness__description-list li 
+    {
+        font-size: 12px;
+        padding: 15px 0;
+        gap: 10px;
+    }
+    .fitness__description-list img
+    {
+        max-width: 30px;
+        width: 100%;
+    }
+    .fitness_description-btn-link 
+    {  
+        font-size: 14px;
+        padding: 10px 80px;
+    }
+}
+
+
+
+
